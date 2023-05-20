@@ -87,5 +87,9 @@ git status
 git add .
 git commit -m "last commit"
 git push
-### GIT BRANCH ###
 git status 
+git branch --all
+git branch frontend
+git checkout frontend 
+git checkout master
+git merge frontend
