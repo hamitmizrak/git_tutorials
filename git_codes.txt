@@ -63,5 +63,10 @@ git --help VEYA git -h
 
 ##############################################################################
 ### GIT DIFF ###
+git log
 git diff commit1 commit2
+git diff 82836d9  8cdcbbf
 
+##############################################################################
+### GIT IGNORE ###
+Git tarafından takip edilmesini istemediğimiz durumlarda
