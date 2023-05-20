@@ -71,3 +71,19 @@ git diff 82836d9  8cdcbbf
 ##############################################################################
 ### GIT IGNORE ###
 Git tarafından takip edilmesini istemediğimiz durumlarda
+
+
+##############################################################################
+### GIT STASH ###
+git status
+git add .
+git stash save "database"
+git stash list
+git stash apply stash@{1}
+
+##############################################################################
+### GIT BRANCH ###
+git status 
+git add .
+git commit -m "last commit"
+git push
