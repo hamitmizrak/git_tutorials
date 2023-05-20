@@ -1,0 +1,50 @@
+### Version ###
+git --version 
+git -v
+
+### Config ###
+git config --global -l
+git config --global user.name 
+git config --global user.name "hamitmizrak"
+git config --global user.email
+git config --global user.email "hamitmizrak@gmail.com"
+
+# DİKKAT: Window kullanırsak PATH Eklemelisin.(notepad++)
+git config --global core.editor "notepad++"
+
+git log --all --graph --decorate --oneline
+git config --global alias.takma "log --all --decorate --graph --all"
+git config --global -l
+git takma
+
+
+### GIT CREATE ###
+git init 
+
+git add .
+git add dosyaAdi.txt 
+git add dosya* 
+git rm --cached dosyaAdi.txt
+
+git commit -m "commit -1"
+git commit --amend -m "commit adını değiştir"
+
+git remote add origin https://github.com/hamitmizrak/git_tutorials.git
+git remote 
+
+git push -u origin master (BİRİNCİDE BÖYLE YAZILIR)
+
+
+### GIT SKK ###
+git status
+git log
+git --help VEYA git -h
+
+
+### GİTHUB (Microsoft)###
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hamitmizrak/git_tutorials.git
+git push -u origin main
