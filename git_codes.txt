@@ -61,4 +61,7 @@ git status
 git log
 git --help VEYA git -h
 
+##############################################################################
+### GIT DIFF ###
+git diff commit1 commit2
 
