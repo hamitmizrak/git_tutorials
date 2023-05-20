@@ -2,6 +2,7 @@
 git --version 
 git -v
 
+##############################################################################
 ### Config ###
 git config --global -l
 git config --global user.name 
@@ -17,10 +18,19 @@ git config --global alias.takma "log --all --decorate --graph --all"
 git config --global -l
 git takma
 
+##############################################################################
+### GİTHUB (Microsoft)###
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hamitmizrak/git_tutorials.git
+git push -u origin main
 
+
+##############################################################################
 ### GIT CREATE ###
 git init 
-
 git add .
 git add dosyaAdi.txt 
 git add dosya* 
@@ -33,18 +43,22 @@ git remote add origin https://github.com/hamitmizrak/git_tutorials.git
 git remote 
 
 git push -u origin master (BİRİNCİDE BÖYLE YAZILIR)
+git pull
 
+##############################################################################
+### GIT SÜREKLİ ###
+git add .
+git commit -m "second commit"
+git push
 
+##############################################################################
+### GIT CLONE ###
+git clone gitHubURL
+
+##############################################################################
 ### GIT SKK ###
 git status
 git log
 git --help VEYA git -h
 
 
-### GİTHUB (Microsoft)###
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/hamitmizrak/git_tutorials.git
-git push -u origin main
